@@ -1,6 +1,7 @@
 function removeDuplicates(arr) {
   // TODO
   const newArr = arr.filter((number, index) => arr.indexOf(number) === index);
+
   return newArr;
 }
 
